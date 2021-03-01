@@ -10,7 +10,7 @@ var risultato = 0;
 console.log('la mail inserita dall\'utente è ' + mailUtente);
 
 //3. controlla che sia nella lista di chi può accedere
-for ( var i = 0 ; i < 4; i++ ){
+for ( var i = 0 ; i < listaMail.length; i++ ){
   console.log(listaMail[i]);
   if (mailUtente == listaMail[i]){
     console.log('ok, puoi accedere');
