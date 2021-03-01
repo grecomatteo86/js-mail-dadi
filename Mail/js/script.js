@@ -18,10 +18,10 @@ for ( var i = 0 ; i < 4; i++ ){
   }
 }
 
+//4. stampa un messaggio appropriato sull’esito del controllo
+
 if (risultato == 1) {
   alert('puoi accedere');
 } else {
   alert('non puoi accedere');
 }
-
-//4. stampa un messaggio appropriato sull’esito del controllo
